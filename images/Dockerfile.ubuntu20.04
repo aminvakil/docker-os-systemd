@@ -1,0 +1,16 @@
+FROM ubuntu:20.04
+
+LABEL maintainer="Amin Vakil <info@aminvakil.com>"
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+       python3-setuptools \
+       python3-pip \
+       python3-wheel \
+       systemd \
+       sudo \
+    && rm -Rf /var/lib/apt/lists/* \
+    && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
+    && apt-get clean
+
+ENTRYPOINT ["/bin/systemd"]

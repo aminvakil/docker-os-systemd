@@ -42,6 +42,18 @@ jobs:
       - name: Check if the container is correctly stopped and removed.
         run: docker rm -f "$(cat ${container_id})"
 
+      - name: Install trivy.
+        run: |
+          sudo curl -L https://github.com/aquasecurity/trivy/releases/download/v$TRIVY_VERSION/trivy_"$TRIVY_VERSION"_$(uname -s)-64bit.tar.gz -o /tmp/trivy.tar.gz
+          sudo tar -xzf /tmp/trivy.tar.gz -C /tmp
+          sudo mv /tmp/trivy /usr/local/bin/trivy
+          sudo chmod 755 /usr/local/bin/trivy
+        env:
+          TRIVY_VERSION: 0.16.0
+
+      - name: Run trivy.
+        run: trivy image ${{ matrix.distro }}:build
+
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: build

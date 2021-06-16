@@ -17,6 +17,7 @@ jobs:
           - distro: centos8
           - distro: centos7
           - distro: debian10
+          - distro: debian11
           - distro: ubuntu20.04
           - distro: ubuntu18.04
           - distro: ubuntu16.04
@@ -57,6 +58,7 @@ jobs:
           - distro: centos8
           - distro: centos7
           - distro: debian10
+          - distro: debian11
           - distro: ubuntu20.04
           - distro: ubuntu18.04
           - distro: ubuntu16.04

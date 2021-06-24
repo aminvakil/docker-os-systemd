@@ -14,6 +14,7 @@ jobs:
     strategy:
       matrix:
         include:
+          - distro: rocky8
           - distro: centos8
           - distro: centos7
           - distro: debian10
@@ -55,6 +56,7 @@ jobs:
     strategy:
       matrix:
         include:
+          - distro: rocky8
           - distro: centos8
           - distro: centos7
           - distro: debian10

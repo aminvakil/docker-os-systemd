@@ -1,4 +1,4 @@
-FROM rocky:8.4
+FROM rockylinux:8.4
 
 LABEL maintainer="Amin Vakil <info@aminvakil.com>"
 

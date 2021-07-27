@@ -1,4 +1,4 @@
-FROM ubuntu:bionic-20210702
+FROM ubuntu:bionic-20210723
 
 LABEL maintainer="Amin Vakil <info@aminvakil.com>"
 

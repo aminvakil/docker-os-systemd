@@ -5,7 +5,6 @@ Can be used for molecule testing.
 
 Distros available:
 
-- `quay.io/aminvakil/rockylinux8-ansible`
 - `quay.io/aminvakil/rockylinux8-systemd`
 - `quay.io/aminvakil/centos8-systemd`
 - `quay.io/aminvakil/centos7-systemd`

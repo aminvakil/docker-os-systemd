@@ -1,4 +1,4 @@
-FROM ubuntu:focal-20220113
+FROM ubuntu:focal-20220302
 
 LABEL maintainer="Amin Vakil <info@aminvakil.com>"
 

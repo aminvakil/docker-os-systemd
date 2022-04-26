@@ -10,12 +10,12 @@ Distros available:
 - `quay.io/aminvakil/centos7-systemd`
 - `quay.io/aminvakil/debian10-systemd`
 - `quay.io/aminvakil/debian11-systemd`
+- `quay.io/aminvakil/ubuntu22.04-systemd`
 - `quay.io/aminvakil/ubuntu20.04-systemd`
 - `quay.io/aminvakil/ubuntu18.04-systemd`
-- `quay.io/aminvakil/ubuntu16.04-systemd`
+- `quay.io/aminvakil/fedora35-systemd`
 - `quay.io/aminvakil/fedora34-systemd`
 - `quay.io/aminvakil/fedora33-systemd`
-- `quay.io/aminvakil/fedora32-systemd`
 
 Some repositories using these images to test:
 

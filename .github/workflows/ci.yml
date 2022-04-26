@@ -20,9 +20,9 @@ jobs:
           - distro: centos7
           - distro: debian10
           - distro: debian11
+          - distro: ubuntu22.04
           - distro: ubuntu20.04
           - distro: ubuntu18.04
-          - distro: ubuntu16.04
           - distro: fedora35
           - distro: fedora34
           - distro: fedora33
@@ -62,9 +62,9 @@ jobs:
           - distro: centos7
           - distro: debian10
           - distro: debian11
+          - distro: ubuntu22.04
           - distro: ubuntu20.04
           - distro: ubuntu18.04
-          - distro: ubuntu16.04
           - distro: fedora35
           - distro: fedora34
           - distro: fedora33

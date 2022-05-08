@@ -80,7 +80,7 @@ jobs:
           password: ${{ secrets.QUAY_PASSWORD }}
 
       - name: Push to Quay
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v3
         with:
           file: images/Dockerfile.${{ matrix.distro }}
           pull: true

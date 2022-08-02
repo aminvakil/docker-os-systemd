@@ -1,4 +1,4 @@
-FROM debian:buster-20220711
+FROM debian:buster-20220801
 
 LABEL maintainer="Amin Vakil <info@aminvakil.com>"
 

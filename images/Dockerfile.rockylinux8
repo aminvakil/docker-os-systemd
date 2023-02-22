@@ -1,4 +1,4 @@
-FROM quay.io/rockylinux/rockylinux:8.7.20221112
+FROM quay.io/rockylinux/rockylinux:8.7.20230215
 
 LABEL maintainer="Amin Vakil <info@aminvakil.com>"
 

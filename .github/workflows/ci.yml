@@ -28,7 +28,7 @@ jobs:
           - distro: fedora33
     steps:
       - name: Check out the codebase.
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Build docker image.
         run: docker build --no-cache --rm --file=images/Dockerfile.${{ matrix.distro }} --tag ${{ matrix.distro }}:build images

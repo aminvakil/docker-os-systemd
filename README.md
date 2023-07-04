@@ -13,9 +13,9 @@ Distros available:
 - `quay.io/aminvakil/ubuntu22.04-systemd`
 - `quay.io/aminvakil/ubuntu20.04-systemd`
 - `quay.io/aminvakil/ubuntu18.04-systemd`
-- `quay.io/aminvakil/fedora35-systemd`
-- `quay.io/aminvakil/fedora34-systemd`
-- `quay.io/aminvakil/fedora33-systemd`
+- `quay.io/aminvakil/fedora-systemd`
+
+Fedora image is using the latest Fedora release (currently 38).
 
 Some repositories using these images to test:
 

@@ -15,7 +15,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - distro: debian10
           - distro: debian11
           - distro: debian12
           - distro: ubuntu24.04
@@ -54,7 +53,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - distro: debian10
           - distro: debian11
           - distro: debian12
           - distro: ubuntu24.04

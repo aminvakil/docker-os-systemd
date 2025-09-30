@@ -1,4 +1,4 @@
-FROM debian:bullseye-20250908
+FROM debian:bullseye-20250929
 
 LABEL maintainer="Amin Vakil <info@aminvakil.com>"
 

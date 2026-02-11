@@ -1,4 +1,4 @@
-FROM debian:trixie-20250908
+FROM debian:trixie-20260202
 
 LABEL maintainer="Amin Vakil <info@aminvakil.com>"
 

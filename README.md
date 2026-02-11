@@ -5,15 +5,14 @@ Can be used for molecule testing.
 
 Distros available:
 
+- `quay.io/aminvakil/debian13-systemd`
 - `quay.io/aminvakil/debian12-systemd`
 - `quay.io/aminvakil/debian11-systemd`
-- `quay.io/aminvakil/debian10-systemd`
 - `quay.io/aminvakil/ubuntu24.04-systemd`
 - `quay.io/aminvakil/ubuntu22.04-systemd`
-- `quay.io/aminvakil/ubuntu20.04-systemd`
 - `quay.io/aminvakil/fedora-systemd`
 
-Fedora image is using the latest Fedora release (currently 38).
+Fedora image is using the latest Fedora release (currently 45).
 
 Some repositories using these images to test:
 

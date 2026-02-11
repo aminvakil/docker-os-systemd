@@ -14,6 +14,8 @@ Distros available:
 
 Fedora image is using the latest Fedora release (currently 45).
 
+Distros may not be updated. Check images directory.
+
 Some repositories using these images to test:
 
 - [aminvakil/lamp](https://github.com/aminvakil/lamp)

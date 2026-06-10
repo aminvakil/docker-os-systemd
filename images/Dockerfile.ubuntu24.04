@@ -1,16 +1,16 @@
-FROM ubuntu:noble-20260509.1
-
-LABEL maintainer="Amin Vakil <info@aminvakil.com>"
-
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
-       python3-setuptools \
-       python3-pip \
-       python3-wheel \
-       systemd \
-       sudo \
-    && rm -Rf /var/lib/apt/lists/* \
-    && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
-    && apt-get clean
-
-ENTRYPOINT ["/bin/systemd"]
+FROM ubuntu:noble-20260509.1resolute-20260421
+resolute-20260421
+LABEL maintainer="Amin Vakil <info@aminvakil.com>"resolute-20260421
+resolute-20260421
+RUN apt-get update \resolute-20260421
+    && apt-get install -y --no-install-recommends \resolute-20260421
+       python3-setuptools \resolute-20260421
+       python3-pip \resolute-20260421
+       python3-wheel \resolute-20260421
+       systemd \resolute-20260421
+       sudo \resolute-20260421
+    && rm -Rf /var/lib/apt/lists/* \resolute-20260421
+    && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \resolute-20260421
+    && apt-get cleanresolute-20260421
+resolute-20260421
+ENTRYPOINT ["/bin/systemd"]resolute-20260421

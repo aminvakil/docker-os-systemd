@@ -1,15 +1,15 @@
-FROM debian:trixie-20260518
-
-LABEL maintainer="Amin Vakil <info@aminvakil.com>"
-
-RUN apt-get update -y && apt-get install -y --no-install-recommends \
-    systemd \
-    python3-pip \
-    python3-setuptools \
-    python3-wheel \
-    sudo \
-    && rm -rf /var/lib/apt/lists/* \
-    && rm -rf /usr/share/doc && rm -rf /usr/share/man \
-    && apt-get clean
-
-ENTRYPOINT ["/lib/systemd/systemd"]
+FROM debian:trixie-20260518resolute-20260421
+resolute-20260421
+LABEL maintainer="Amin Vakil <info@aminvakil.com>"resolute-20260421
+resolute-20260421
+RUN apt-get update -y && apt-get install -y --no-install-recommends \resolute-20260421
+    systemd \resolute-20260421
+    python3-pip \resolute-20260421
+    python3-setuptools \resolute-20260421
+    python3-wheel \resolute-20260421
+    sudo \resolute-20260421
+    && rm -rf /var/lib/apt/lists/* \resolute-20260421
+    && rm -rf /usr/share/doc && rm -rf /usr/share/man \resolute-20260421
+    && apt-get cleanresolute-20260421
+resolute-20260421
+ENTRYPOINT ["/lib/systemd/systemd"]resolute-20260421

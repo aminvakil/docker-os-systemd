@@ -1,15 +1,15 @@
-FROM fedora
-
-LABEL maintainer="Amin Vakil <info@aminvakil.com>"
-
-RUN dnf -y install systemd python3-pip sudo && dnf clean all && \
-(cd /lib/systemd/system/sysinit.target.wants/; for i in *; do [ $i == systemd-tmpfiles-setup.service ] || rm -f $i; done); \
-rm -f /lib/systemd/system/multi-user.target.wants/*;\
-rm -f /etc/systemd/system/*.wants/*;\
-rm -f /lib/systemd/system/local-fs.target.wants/*; \
-rm -f /lib/systemd/system/sockets.target.wants/*udev*; \
-rm -f /lib/systemd/system/sockets.target.wants/*initctl*; \
-rm -f /lib/systemd/system/basic.target.wants/*;\
-rm -f /lib/systemd/system/anaconda.target.wants/*;
-
-CMD ["/usr/sbin/init"]
+FROM fedoraresolute-20260421
+resolute-20260421
+LABEL maintainer="Amin Vakil <info@aminvakil.com>"resolute-20260421
+resolute-20260421
+RUN dnf -y install systemd python3-pip sudo && dnf clean all && \resolute-20260421
+(cd /lib/systemd/system/sysinit.target.wants/; for i in *; do [ $i == systemd-tmpfiles-setup.service ] || rm -f $i; done); \resolute-20260421
+rm -f /lib/systemd/system/multi-user.target.wants/*;\resolute-20260421
+rm -f /etc/systemd/system/*.wants/*;\resolute-20260421
+rm -f /lib/systemd/system/local-fs.target.wants/*; \resolute-20260421
+rm -f /lib/systemd/system/sockets.target.wants/*udev*; \resolute-20260421
+rm -f /lib/systemd/system/sockets.target.wants/*initctl*; \resolute-20260421
+rm -f /lib/systemd/system/basic.target.wants/*;\resolute-20260421
+rm -f /lib/systemd/system/anaconda.target.wants/*;resolute-20260421
+resolute-20260421
+CMD ["/usr/sbin/init"]resolute-20260421

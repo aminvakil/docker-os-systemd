@@ -12,6 +12,7 @@ Images are published to Quay:
 | --- | --- |
 | Debian 13 | `quay.io/aminvakil/debian13-systemd` |
 | Debian 12 | `quay.io/aminvakil/debian12-systemd` |
+| Ubuntu 26.04 | `quay.io/aminvakil/ubuntu26.04-systemd` |
 | Ubuntu 24.04 | `quay.io/aminvakil/ubuntu24.04-systemd` |
 | Ubuntu 22.04 | `quay.io/aminvakil/ubuntu22.04-systemd` |
 | Fedora | `quay.io/aminvakil/fedora-systemd` |
@@ -30,6 +31,7 @@ Current Dockerfiles use these base images:
 | --- | --- | --- |
 | `images/Dockerfile.debian13` | `debian:trixie-20260421` | `/lib/systemd/systemd` |
 | `images/Dockerfile.debian12` | `debian:bookworm-20260421` | `/bin/systemd` |
+| `images/Dockerfile.ubuntu26.04` | `ubuntu:resolute-20260421` | `/bin/systemd` |
 | `images/Dockerfile.ubuntu24.04` | `ubuntu:noble-20260410` | `/bin/systemd` |
 | `images/Dockerfile.ubuntu22.04` | `ubuntu:jammy-20260410` | `/bin/systemd` |
 | `images/Dockerfile.fedora` | `fedora` | `/usr/sbin/init` |
@@ -80,6 +82,7 @@ Run a scenario against one of the supported distro names:
 
 ```sh
 MOLECULE_DISTRO=debian12 molecule test
+MOLECULE_DISTRO=ubuntu26.04 molecule test
 MOLECULE_DISTRO=ubuntu24.04 molecule test
 MOLECULE_DISTRO=fedora molecule test
 ```

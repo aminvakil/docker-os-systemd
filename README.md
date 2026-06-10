@@ -12,7 +12,6 @@ Images are published to Quay:
 | --- | --- |
 | Debian 13 | `quay.io/aminvakil/debian13-systemd` |
 | Debian 12 | `quay.io/aminvakil/debian12-systemd` |
-| Debian 11 | `quay.io/aminvakil/debian11-systemd` |
 | Ubuntu 24.04 | `quay.io/aminvakil/ubuntu24.04-systemd` |
 | Ubuntu 22.04 | `quay.io/aminvakil/ubuntu22.04-systemd` |
 | Fedora | `quay.io/aminvakil/fedora-systemd` |
@@ -31,7 +30,6 @@ Current Dockerfiles use these base images:
 | --- | --- | --- |
 | `images/Dockerfile.debian13` | `debian:trixie-20260421` | `/lib/systemd/systemd` |
 | `images/Dockerfile.debian12` | `debian:bookworm-20260421` | `/bin/systemd` |
-| `images/Dockerfile.debian11` | `debian:bullseye-20260421` | `/bin/systemd` |
 | `images/Dockerfile.ubuntu24.04` | `ubuntu:noble-20260410` | `/bin/systemd` |
 | `images/Dockerfile.ubuntu22.04` | `ubuntu:jammy-20260410` | `/bin/systemd` |
 | `images/Dockerfile.fedora` | `fedora` | `/usr/sbin/init` |

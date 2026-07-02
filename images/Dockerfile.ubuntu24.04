@@ -1,4 +1,4 @@
-FROM ubuntu:noble-20260509.1
+FROM ubuntu:noble-20260610
 
 LABEL maintainer="Amin Vakil <info@aminvakil.com>"
 

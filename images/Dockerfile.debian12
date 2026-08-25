@@ -1,4 +1,4 @@
-FROM debian:bookworm-20260803
+FROM debian:bookworm-20260824
 
 LABEL maintainer="Amin Vakil <info@aminvakil.com>"
 

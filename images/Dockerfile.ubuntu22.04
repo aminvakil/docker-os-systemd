@@ -1,4 +1,4 @@
-FROM ubuntu:jammy-20261020
+FROM ubuntu:jammy-20261110
 
 LABEL maintainer="Amin Vakil <info@aminvakil.com>"
 
